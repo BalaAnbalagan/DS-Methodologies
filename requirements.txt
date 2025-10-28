@@ -1,0 +1,41 @@
+# DS Methodologies Portfolio - Master Requirements
+# Compatible with Python 3.9+, Google Colab, and Kaggle Notebooks
+
+# Core Data Science Libraries
+pandas==2.0.3
+numpy==1.24.3
+scipy==1.11.1
+
+# Machine Learning
+scikit-learn==1.3.0
+xgboost==2.0.0
+lightgbm==4.1.0
+
+# Model Interpretation
+shap==0.43.0
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Jupyter Support
+jupyter==1.0.0
+ipykernel==6.25.0
+ipywidgets==8.1.0
+
+# Optional: AutoML (uncomment if using AutoGluon)
+# autogluon==0.8.2
+
+# Data Download (Kaggle API)
+kaggle==1.5.16
+
+# Utilities
+joblib==1.3.2
+tqdm==4.66.1
+
+# For generating reports
+jinja2==3.1.2
+
+# Export formats
+openpyxl==3.1.2
+xlsxwriter==3.1.9
