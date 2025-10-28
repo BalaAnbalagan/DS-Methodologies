@@ -15,7 +15,7 @@ This repository teaches you **three foundational data science methodologies** th
 ✅ **Learn by doing** - Run real projects on Kaggle datasets
 ✅ **AI-powered learning** - Use ChatGPT/Claude to critique and improve your work
 ✅ **Video-tutorial ready** - Perfect structure for creating teaching content
-✅ **ELI20 explanations** - Clear enough for anyone to understand
+✅ **Clear explanations** - Accessible for learners at all levels
 
 **Perfect for**: Students, educators, aspiring data scientists, content creators
 
