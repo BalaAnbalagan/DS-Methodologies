@@ -97,7 +97,7 @@ This portfolio showcases three fundamental data mining methodologies applied to 
 
 **Files**:
 - Notebook: [`KDD/kdd_credit_fraud.ipynb`](KDD/kdd_credit_fraud.ipynb) (4.4KB with outputs)
-- Medium Article: [📝 Published on Medium](https://medium.com/@bala.anbalagan/ds-methodologies-kdd-medium-draft-md-at-main-balaanbalagan-ds-methodologies-86d46138c4d6) | [Source](KDD/medium_draft.md)
+- Medium Article: [📝 Published on Medium](https://medium.com/@balamuralikrishnan.anbalagan/kdd-process-unsupervised-fraud-detection-with-isolation-forest-815953becce1) | [Source](KDD/medium_draft.md)
 - Technical Report: [`KDD/report.md`](KDD/report.md)
 
 **When to Use KDD**:
