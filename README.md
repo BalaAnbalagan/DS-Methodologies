@@ -29,7 +29,7 @@ Get **ChatGPT critiques automatically** from within your notebooks! No copy-past
 # In your notebook
 from ai_critique_helper import AICritiqueHelper
 
-ai = AICritiqueHelper(model="gpt-4")
+ai = AICritiqueHelper(model="gpt-3.5-turbo")  # Fast & cheap!
 
 # After running Phase 1 code
 critique = ai.critique_phase(
@@ -44,7 +44,8 @@ critique = ai.critique_phase(
 # ✅ Two-pass revision process built-in
 ```
 
-**See**: [EXAMPLE_AI_CRITIQUE_USAGE.md](EXAMPLE_AI_CRITIQUE_USAGE.md) for complete guide
+**⚡ Quick Start**: [FAST_WORKFLOW.md](FAST_WORKFLOW.md) - Get critiques in 5 minutes per phase!
+**📚 Complete Guide**: [EXAMPLE_AI_CRITIQUE_USAGE.md](EXAMPLE_AI_CRITIQUE_USAGE.md)
 
 **Why this matters**: Assignment requires demonstrating iterative AI-assisted improvements. This tool automates that workflow and documents everything!
 
