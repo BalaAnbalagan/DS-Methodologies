@@ -174,7 +174,7 @@ jupyter notebook
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/DS-Methodologies.git
+git clone https://github.com/BalaAnbalagan/DS-Methodologies.git
 cd DS-Methodologies
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -182,6 +182,8 @@ pip install -r requirements.txt
 ```
 
 ### Running Notebooks
+
+**Option 1: Local Jupyter**
 ```bash
 # CRISP-DM
 cd CRISP_DM
@@ -196,10 +198,23 @@ cd ../KDD
 jupyter notebook kdd_credit_fraud.ipynb
 ```
 
+**Option 2: Google Colab** (No installation required!)
+
+Open directly in Colab:
+- [CRISP-DM Notebook](https://colab.research.google.com/github/BalaAnbalagan/DS-Methodologies/blob/main/CRISP_DM/crisp_dm_walmart_sales.ipynb)
+- [SEMMA Notebook](https://colab.research.google.com/github/BalaAnbalagan/DS-Methodologies/blob/main/SEMMA/semma_student_performance.ipynb)
+- [KDD Notebook](https://colab.research.google.com/github/BalaAnbalagan/DS-Methodologies/blob/main/KDD/kdd_credit_fraud.ipynb)
+
+**Note for Colab users**: You'll need to upload the dataset to your Colab session or mount Google Drive.
+
 ### Dataset Setup
-The 144MB `creditcard.csv` dataset is included in each project's `dataset/` folder. If missing:
-1. Download from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-2. Place in `{CRISP_DM,SEMMA,KDD}/dataset/creditcard.csv`
+The 144MB `creditcard.csv` dataset is **not included in GitHub** (exceeds 100MB limit). Download it:
+
+1. **Download**: Get from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) (requires free account)
+2. **For Local Jupyter**: Place in `{CRISP_DM,SEMMA,KDD}/dataset/creditcard.csv`
+3. **For Google Colab**:
+   - Upload to Colab session: Use Colab's file upload
+   - Or mount Google Drive and update paths in notebooks
 
 ## Project Structure
 ```
