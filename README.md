@@ -39,7 +39,7 @@ This portfolio showcases three fundamental data mining methodologies applied to 
 
 **Files**:
 - Notebook: [`CRISP_DM/crisp_dm_walmart_sales.ipynb`](CRISP_DM/crisp_dm_walmart_sales.ipynb) (77KB with outputs)
-- Medium Article: [`CRISP_DM/medium_draft.md`](CRISP_DM/medium_draft.md) (8.3KB)
+- Medium Article: [📝 Published on Medium](https://medium.com/@bala.anbalagan/battling-credit-card-fraud-with-crisp-dm-a-data-driven-approach-0af7a0735b54) | [Source](CRISP_DM/medium_draft.md)
 - Technical Report: [`CRISP_DM/report.md`](CRISP_DM/report.md)
 
 **When to Use CRISP-DM**:
@@ -68,7 +68,7 @@ This portfolio showcases three fundamental data mining methodologies applied to 
 
 **Files**:
 - Notebook: [`SEMMA/semma_student_performance.ipynb`](SEMMA/semma_student_performance.ipynb) (86KB with outputs)
-- Medium Article: [`SEMMA/medium_draft.md`](SEMMA/medium_draft.md) (10KB)
+- Medium Article: [📝 Published on Medium](https://medium.com/@bala.anbalagan/semma-methodology-in-action-rapid-fraud-detection-prototyping-f6d9fd332271) | [Source](SEMMA/medium_draft.md)
 - Technical Report: [`SEMMA/report.md`](SEMMA/report.md)
 
 **When to Use SEMMA**:
@@ -97,7 +97,7 @@ This portfolio showcases three fundamental data mining methodologies applied to 
 
 **Files**:
 - Notebook: [`KDD/kdd_credit_fraud.ipynb`](KDD/kdd_credit_fraud.ipynb) (4.4KB with outputs)
-- Medium Article: [`KDD/medium_draft.md`](KDD/medium_draft.md) (12KB)
+- Medium Article: [📝 Published on Medium](https://medium.com/@bala.anbalagan/ds-methodologies-kdd-medium-draft-md-at-main-balaanbalagan-ds-methodologies-86d46138c4d6) | [Source](KDD/medium_draft.md)
 - Technical Report: [`KDD/report.md`](KDD/report.md)
 
 **When to Use KDD**:
