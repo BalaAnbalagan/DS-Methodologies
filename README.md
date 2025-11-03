@@ -68,7 +68,7 @@ This portfolio showcases three fundamental data mining methodologies applied to 
 
 **Files**:
 - Notebook: [`SEMMA/semma_student_performance.ipynb`](SEMMA/semma_student_performance.ipynb) (86KB with outputs)
-- Medium Article: [📝 Published on Medium](https://medium.com/@bala.anbalagan/semma-methodology-in-action-rapid-fraud-detection-prototyping-f6d9fd332271) | [Source](SEMMA/medium_draft.md)
+- Medium Article: [📝 Published on Medium](https://medium.com/@balamuralikrishnan.anbalagan/semma-methodology-in-action-rapid-fraud-detection-prototyping-7d2ca8277048) | [Source](SEMMA/medium_draft.md)
 - Technical Report: [`SEMMA/report.md`](SEMMA/report.md)
 
 **When to Use SEMMA**:
