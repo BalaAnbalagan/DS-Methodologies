@@ -246,7 +246,7 @@ You provide practical, speed-focused critiques that balance rigor with iteration
         return personas.get(methodology, personas["CRISP-DM"])
 
     def _display_critique(self, critique, phase_name, color="blue"):
-        """Display critique beautifully in notebook"""
+        """Display critique beautifully in notebook with copy button"""
 
         color_map = {
             "blue": "#2196F3",
@@ -254,19 +254,79 @@ You provide practical, speed-focused critiques that balance rigor with iteration
             "orange": "#FF9800"
         }
 
+        # Generate unique ID for this critique
+        import random
+        critique_id = f"critique_{random.randint(1000, 9999)}"
+
         html = f"""
         <div style="border-left: 4px solid {color_map.get(color, '#2196F3')};
                     padding: 15px;
                     margin: 20px 0;
                     background-color: #f5f5f5;
                     border-radius: 5px;">
-            <h3 style="color: {color_map.get(color, '#2196F3')}; margin-top: 0;">
-                🤖 AI Critique: {phase_name}
-            </h3>
-            <div style="background: white; padding: 15px; border-radius: 5px; font-family: monospace; white-space: pre-wrap;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <h3 style="color: {color_map.get(color, '#2196F3')}; margin: 0;">
+                    🤖 AI Critique: {phase_name}
+                </h3>
+                <button onclick="copyToClipboard_{critique_id}()"
+                        style="background-color: {color_map.get(color, '#2196F3')};
+                               color: white;
+                               border: none;
+                               padding: 8px 16px;
+                               border-radius: 4px;
+                               cursor: pointer;
+                               font-weight: bold;
+                               transition: opacity 0.2s;"
+                        onmouseover="this.style.opacity='0.8'"
+                        onmouseout="this.style.opacity='1'"
+                        id="copyBtn_{critique_id}">
+                    📋 Copy
+                </button>
+            </div>
+            <div id="{critique_id}" style="background: white; padding: 15px; border-radius: 5px; font-family: monospace; white-space: pre-wrap;">
 {critique}
             </div>
         </div>
+
+        <script>
+        function copyToClipboard_{critique_id}() {{
+            const text = document.getElementById('{critique_id}').innerText;
+            const button = document.getElementById('copyBtn_{critique_id}');
+
+            navigator.clipboard.writeText(text).then(function() {{
+                // Success feedback
+                button.innerHTML = '✅ Copied!';
+                button.style.backgroundColor = '#4CAF50';
+                setTimeout(function() {{
+                    button.innerHTML = '📋 Copy';
+                    button.style.backgroundColor = '{color_map.get(color, "#2196F3")}';
+                }}, 2000);
+            }}, function(err) {{
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                textArea.style.position = 'fixed';
+                textArea.style.left = '-999999px';
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {{
+                    document.execCommand('copy');
+                    button.innerHTML = '✅ Copied!';
+                    button.style.backgroundColor = '#4CAF50';
+                    setTimeout(function() {{
+                        button.innerHTML = '📋 Copy';
+                        button.style.backgroundColor = '{color_map.get(color, "#2196F3")}';
+                    }}, 2000);
+                }} catch (err) {{
+                    button.innerHTML = '❌ Failed';
+                    setTimeout(function() {{
+                        button.innerHTML = '📋 Copy';
+                    }}, 2000);
+                }}
+                document.body.removeChild(textArea);
+            }});
+        }}
+        </script>
         """
         display(HTML(html))
 
