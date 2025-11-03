@@ -21,6 +21,35 @@ This repository teaches you **three foundational data science methodologies** th
 
 ---
 
+## 🤖 NEW: Automated AI Critique API
+
+Get **ChatGPT critiques automatically** from within your notebooks! No copy-pasting needed.
+
+```python
+# In your notebook
+from ai_critique_helper import AICritiqueHelper
+
+ai = AICritiqueHelper(model="gpt-4")
+
+# After running Phase 1 code
+critique = ai.critique_phase(
+    methodology="CRISP-DM",
+    phase_name="Business Understanding",
+    code=your_code,
+    output=your_output
+)
+# ✅ Get expert critique instantly
+# ✅ Beautiful formatting in notebook
+# ✅ Automatically saved to critiques/ folder
+# ✅ Two-pass revision process built-in
+```
+
+**See**: [EXAMPLE_AI_CRITIQUE_USAGE.md](EXAMPLE_AI_CRITIQUE_USAGE.md) for complete guide
+
+**Why this matters**: Assignment requires demonstrating iterative AI-assisted improvements. This tool automates that workflow and documents everything!
+
+---
+
 ## 🚀 Start Learning (No Setup Required!)
 
 **Click any badge to open the notebook in Google Colab:**
