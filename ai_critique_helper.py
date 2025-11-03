@@ -8,6 +8,15 @@ import os
 from IPython.display import display, Markdown, HTML
 import json
 from datetime import datetime
+from pathlib import Path
+
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not installed, will fall back to system environment variables
+    pass
 
 class AICritiqueHelper:
     """Helper class for getting AI critiques in notebooks"""

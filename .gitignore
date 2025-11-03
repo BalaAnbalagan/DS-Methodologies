@@ -152,4 +152,7 @@ wandb/
 # ===== Kaggle =====
 kaggle.json
 .kaggle/
+
+# ===== Private Files =====
 **/VIDEO_TALK_TRACK.md
+test_api_key.py

@@ -14,28 +14,38 @@ This guide shows you how to automatically get ChatGPT critiques directly from yo
 
 ### 2. Set API Key as Environment Variable
 
-**Option A: In your terminal (temporary - for current session):**
+**Option A: Using .env file (RECOMMENDED for local):**
+```bash
+# The .env file already exists in the project root with your API key
+# Just install python-dotenv:
+pip install python-dotenv
+
+# The ai_critique_helper.py will automatically load from .env
+# No manual export needed!
+```
+
+**Option B: In your terminal (temporary - for current session):**
 ```bash
 export OPENAI_API_KEY="sk-your-key-here"
 ```
 
-**Option B: In Colab (at start of notebook):**
+**Option C: In Colab (at start of notebook):**
 ```python
 import os
 os.environ['OPENAI_API_KEY'] = 'sk-your-key-here'
 ```
 
-**Option C: Permanently (recommended for local):**
+**Option D: Permanently in shell config:**
 ```bash
 # Add to ~/.zshrc or ~/.bashrc
 echo 'export OPENAI_API_KEY="sk-your-key-here"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-### 3. Install OpenAI Package
+### 3. Install Required Packages
 
 ```python
-!pip install openai
+!pip install openai python-dotenv
 ```
 
 ---
