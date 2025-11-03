@@ -39,7 +39,7 @@ This portfolio showcases three fundamental data mining methodologies applied to 
 
 **Files**:
 - Notebook: [`CRISP_DM/crisp_dm_walmart_sales.ipynb`](CRISP_DM/crisp_dm_walmart_sales.ipynb) (77KB with outputs)
-- Medium Article: [📝 Published on Medium](https://medium.com/@bala.anbalagan/battling-credit-card-fraud-with-crisp-dm-a-data-driven-approach-0af7a0735b54) | [Source](CRISP_DM/medium_draft.md)
+- Medium Article: [📝 Published on Medium](https://medium.com/@balamuralikrishnan.anbalagan/battling-credit-card-fraud-with-crisp-dm-a-data-driven-approach-28f492e3646f) | [Source](CRISP_DM/medium_draft.md)
 - Technical Report: [`CRISP_DM/report.md`](CRISP_DM/report.md)
 
 **When to Use CRISP-DM**:
