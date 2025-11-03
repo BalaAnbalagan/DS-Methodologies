@@ -278,7 +278,7 @@ MIT License - See LICENSE file for details.
 
 ## Contact
 
-Questions or feedback? Open an issue or reach out via [your contact method].
+Questions or feedback? Open an issue or reach out at **bala.anbalagan@sjsu.edu**
 
 ---
 
