@@ -161,3 +161,7 @@ VSCODE_SETUP.md
 FAST_WORKFLOW.md
 QUICK_API_START.md
 EXAMPLE_AI_CRITIQUE_USAGE.md
+
+# Large dataset files (download from Kaggle)
+**/dataset/creditcard.csv
+**/dataset/*.csv
