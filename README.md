@@ -2,6 +2,12 @@
 
 **Three complete credit card fraud detection projects demonstrating CRISP-DM, SEMMA, and KDD methodologies with executed Jupyter notebooks, comprehensive Medium articles, and detailed expert critiques.**
 
+## Video Presentation
+
+[![Data Science Methodologies Portfolio](https://img.youtube.com/vi/af_ZoFPcYUk/0.jpg)](https://youtu.be/af_ZoFPcYUk)
+
+[Watch the full presentation on YouTube](https://youtu.be/af_ZoFPcYUk)
+
 ## Overview
 
 This portfolio showcases three fundamental data mining methodologies applied to the same problem domain—credit card fraud detection—allowing direct comparison of approaches, trade-offs, and results. Each project includes:
